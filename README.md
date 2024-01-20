@@ -16,37 +16,41 @@ In our version, the player will be greeted with some text art, alongside some in
 
 The player is met with some art and instructions to read through to play the game.
 
-![Enter image](image_link)
+![Text art and instructions](image_link)
 
 #### Enter your name
 
 The player has the chance to enter their name. The game cannot start without this, and there is code in place to ensure the entered data is valid.
 
-![Enter image](assets/images/enter-name.png)
+![Enter your name](assets/images/enter-name.png)
 
 #### Boards being printed
 
 Two boards will be printed, players and computers, with coordinates from 0-4 on the row and the column.
 
-![Enter image](images/feat-first-board.png)
+![Game board](assets/images/feat-first-board.png)
 
 #### Enter a guess
 
 The player is then asked to enter a row and a column to select. If you select a letter or a number out of the range, you’ll be asked to enter it again.
 
-![Enter image](images/feat-enter-guess.png)
+![Ennter guess](assets/images/feat-enter-guess.png)
 
 #### Board print & scores updated
 
 Now you’ll see the boards being printed, with the points updated too. For example, if you guessed 22 and it was a miss, the point that is 22 will now be represented by a “x” and no longer a “_”. You will also see the computer's guess and board the same, alongside two lines which tell you where each guess was and if it was a miss or a hit. Then if applicable, you’ll know if all the ships were sank, and who won, or if the turns have run out, that you can start the game again, or simply just moving onto the next turn and being asked for another row and column.
 
-![Enter image](image_link)
+![Show guesses](assets/images/feat-show-guess.png)
+
+![Show boats](assets/images/feat-show-your-boats.png)
 
 #### Play again
 
 You’ll get an option to play the game again if it comes to an end. This will restart the game if you wish. It is also able to handle input data that is not valid and keep going until it gets the correct data.
 
-![Enter image](image_link)
+![End game](assets/images/feat-show-end-game.png)
+
+![Goodbye!](assets/images/feat-end-game-goodbye.png)
 
 ### Future features
 
@@ -78,27 +82,29 @@ When I first arrived on the terminal I was greeted with text art and instruction
 
 Next, I was able to enter my three-letter username, and I accidentally put in less than three characters and got a response saying I needed to try again. To make sure there were no errors here, I tried more than three letters and also numbers, but all did not work until I entered the right amount.
 
-![Enter image](image_link)
+![Validating data - Name](assets/images/test-input-name.png)
 
 Then I saw the boards, mine and the computers. I noticed that my name had been capitalized which was a nice touch. Looking at the boards, I noticed the coordinates started from 0-4, like the instructions said, so it was clear what column or row I would select.
 
-![Enter image](image_link)
+![Validating data - Guess off grid](assets/images/test-input-guess.png)
 
 Next, I was asked to enter a row and a column to make a guess. Again I tried to put in data other than what was asked, but again I was unable to do so due to the validation requirement of the code.
 
-![Enter image](image_link)
+![Validating data - Getting hits, other characters](assets/images/test-input-guess-nonnumber.png)
 
 After I saw the boards printed again with “@” symbols on my board which let me know where my ships were, and if my guess was a hit or a miss, and the same for my opponent, I could see their guess on my board. The last thing I could see was the notes telling me where I had guessed and where the computer had guessed to make the game clearer. There was also a turn counter so I knew how many turns I had left.
 
-![Enter image](image_link)
+![Game board - mid-game img one](assets/images/test-see-board-one.png)
+
+![Game board - mid-game img two](assets/images/test-see-board-two.png)
 
 Next, I was asked to put in another guess, so I tried my last one, and it told me that I already had made that guess. I was able to enter another guess and see if it landed.
 
-![Enter image](image_link)
+![Validating data - Getting hits, same guess](assets/images/test-same-guess.png)
 
 Lastly, when the game was over I was asked if I wanted to continue. After trying more inputs than I was meant to, I was again met with more errors until I put in the right data and I was able to play the game again. Next time when I said I didn’t want to play again I was left with a goodbye.
 
-![Enter image](image_link)
+![Validating data - Play again](assets/images/test-input-start-game-again.png)
 
 #### User stories
 
@@ -129,6 +135,8 @@ When the program starts, the player isn’t able to see where their ships are un
 #### PEP8
 
 The only errors that came back were saying that certain lines were too long, but they’re needed for the code, so I left them in.
+
+![PEP8 Validator](image_link)
 
 ## Deployment
 
