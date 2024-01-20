@@ -2,9 +2,9 @@
 
 Battleships is a Python game that runs on the Code Institute mock terminal on Heroku. Players can win the game by finding the computer’s battleships before the computer finds theirs. The players take turns to guess spots on a map and try to hit all the spots where their enemy's ships are hiding! 
 
-[More information about Battleships](embedded_link)
+[More information about Battleships](https://en.wikipedia.org/wiki/Battleship_(game))
 
-[Live version of the project](embedded_link)
+[Live version of the project](https://connall-battleship-38f220f5a45e.herokuapp.com/)
 
 ## How to play
 
@@ -22,7 +22,7 @@ The player is met with some art and instructions to read through to play the gam
 
 The player has the chance to enter their name. The game cannot start without this, and there is code in place to ensure the entered data is valid.
 
-![Enter image](image_link)
+![Enter image](images/enter-name.png)
 
 #### Boards being printed
 
