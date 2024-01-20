@@ -22,7 +22,7 @@ The player is met with some art and instructions to read through to play the gam
 
 The player has the chance to enter their name. The game cannot start without this, and there is code in place to ensure the entered data is valid.
 
-![Enter image](images/enter-name.png)
+![Enter image](assets/images/enter-name.png)
 
 #### Boards being printed
 
