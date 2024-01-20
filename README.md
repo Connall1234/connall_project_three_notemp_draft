@@ -38,7 +38,7 @@ The player is then asked to enter a row and a column to select. If you select a 
 
 #### Board print & scores updated
 
-Now you’ll see the boards being printed, with the points updated too. For example, if you guessed 22 and it was a miss, the point that is 22 will now be represented by a “x” and no longer a “_”. You will also see the computer's guess and board the same, alongside two lines which tell you where each guess was and if it was a miss or a hit. Then if applicable, you’ll know if all the ships were sank, and who won, or if the turns have run out, that you can start the game again, or simply just moving onto the next turn and being asked for another row and column.
+Now you’ll see the boards being printed, with the points updated too. For example, if you guessed 22 and it was a miss, the point that is 22 will now be represented by a “x” and no longer a “_”. You will also see the computer's guess and board the same, alongside two lines which tell you where each guess was and if it was a miss or a hit. Then if applicable, you’ll know if all the ships were sank, and who won, or if the turns have run out, that you can start the game again, or simply just moving onto the next turn and being asked for another row and column. You can also see the @ being represented on the Computers board, which show your ships.
 
 ![Show guesses](assets/images/feat-show-guess.png)
 
@@ -80,11 +80,13 @@ When I first arrived on the terminal I was greeted with text art and instruction
 
 ![Enter image](image_link)
 
-Next, I was able to enter my three-letter username, and I accidentally put in less than three characters and got a response saying I needed to try again. To make sure there were no errors here, I tried more than three letters and also numbers, but all did not work until I entered the right amount.
+Next, I was able to enter my three-letter username, and I tried some other data inouts which got a response saying I needed to try again. To make sure there were no errors here, I tried more than three letters and also numbers, but all did not work until I entered the right amount.
 
 ![Validating data - Name](assets/images/test-input-name.png)
 
 Then I saw the boards, mine and the computers. I noticed that my name had been capitalized which was a nice touch. Looking at the boards, I noticed the coordinates started from 0-4, like the instructions said, so it was clear what column or row I would select.
+
+I also tried putting in a guess that was off the grid to check what the result would be. 
 
 ![Validating data - Guess off grid](assets/images/test-input-guess.png)
 
