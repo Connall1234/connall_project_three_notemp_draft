@@ -28,13 +28,13 @@ The player has the chance to enter their name. The game cannot start without thi
 
 Two boards will be printed, players and computers, with coordinates from 0-4 on the row and the column.
 
-![Enter image](image_link)
+![Enter image](images/feat-first-board.png)
 
 #### Enter a guess
 
 The player is then asked to enter a row and a column to select. If you select a letter or a number out of the range, you’ll be asked to enter it again.
 
-![Enter image](image_link)
+![Enter image](images/feat-enter-guess.png)
 
 #### Board print & scores updated
 
